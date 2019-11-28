@@ -11,7 +11,7 @@ body {
 
 .dessert_places img {
   border-radius: 50%;
-
+  position: relative;
   }
 
 
@@ -20,6 +20,7 @@ body {
     float: left;
     width: 33.33%;
     padding: 5px;
+
   }
 
   .clearfix::after {
