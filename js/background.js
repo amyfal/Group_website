@@ -6,14 +6,14 @@ $("#map").click (function(event){
 
 $("#1").click(function() {
     $('html,body').animate({
-        scrollTop: $(".ice-cream-info").offset().top},
+        scrollTop: $(".ice-cream-info").offset().top - 60},
         'slow');
 });
 
 
 $("#2").click(function() {
     $('html,body').animate({
-        scrollTop: $(".cake-info").offset().top},
+        scrollTop: $(".cake-info").offset().top - 60},
         'slow');
 });
 
@@ -21,6 +21,6 @@ $("#2").click(function() {
 
 $("#3").click(function() {
     $('html,body').animate({
-        scrollTop: $(".cookies-info").offset().top},
+        scrollTop: $(".cookies-info").offset().top - 60},
         'slow');
 });
