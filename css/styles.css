@@ -18,6 +18,7 @@ body {
 
 }
 
+
 .info img {
   display: block;
 margin-left: auto;
@@ -25,17 +26,19 @@ margin-right: auto;
 width: 40%;
 }
 
-.info h2 {
+h2 {
   font-family: cursive;
   text-align:center;
 }
 
-.info p {
+p {
 text-align:center
 
 }
 
-
+iframe {
+  display: none;
+}
 .img-container {
     float: left;
     width: 33.33%;
