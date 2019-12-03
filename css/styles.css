@@ -16,8 +16,12 @@ body {
 
 .info img {
 width: 200px
- 
 
+}
+
+.info h2 {
+  font-family: cursive;
+  text-align:center;
 }
 
 
