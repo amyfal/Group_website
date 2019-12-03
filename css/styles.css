@@ -11,8 +11,12 @@ body {
 
 .dessert_places img {
   border-radius: 50%;
-
   }
+
+.dessert_places img:hover {
+  border: 6px solid #CD919E;
+
+}
 
 .info img {
   display: block;
