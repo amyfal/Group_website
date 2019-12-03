@@ -4,6 +4,23 @@ $("#map").click (function(event){
 }) ;
 
 
-$(".img-container") .mouseenter(function(event) {
-  $(".overlay") .show();
-}) ;
+$("#1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".ice-cream-info").offset().top},
+        'slow');
+});
+
+
+$("#2").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".cake-info").offset().top},
+        'slow');
+});
+
+
+
+$("#3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".cookies-info").offset().top},
+        'slow');
+});
