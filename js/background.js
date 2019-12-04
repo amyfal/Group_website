@@ -6,11 +6,14 @@ $(document).ready(function(){
           'slow');
   });
 
+
   $("#2").click(function() {
       $('html,body').animate({
           scrollTop: $(".cake-info").offset().top - 60},
           'slow');
   });
+
+
 
   $("#3").click(function() {
       $('html,body').animate({
@@ -18,6 +21,13 @@ $(document).ready(function(){
           'slow');
   });
 
+});
+
 function myFunction() {
   alert("Thank you for your suggestion!");
-  });
+}
+
+$("#subscribe2").click(function(){
+  $("myModal").modal('show');
+
+});
