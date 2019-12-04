@@ -18,7 +18,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">Bath Treats</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
@@ -36,8 +36,9 @@
           <a class="nav-link active" href="Our_Favourites.html">Our Favourites</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Your Suggestions</a>
+          <a class="nav-link active" href="map.html">Map</a>
         </li>
+
       </ul>
     </div>
   </nav>
@@ -122,17 +123,26 @@
 
   </div>
 
-    <div class="map_section">
 
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1u84eFgncUFvR34t2kHtYeeJ_OLzeveEI" width="640" height="480"></iframe>
-
-    </div>
 
     <div class="subscription_button">
       <button type="button" class="btn btn-info" >Subscribe to our newsletter</button>
     </div>
 
-
+    <form>
+      <h2> Have we missed one of your favourites? </h2>
+      <p> Let us know about any other places you think we should include! <p>
+      <div class="form-group">
+        <label for="suggestions">Dessert venue</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type name here">
+      </div>
+      <div class="form-group">
+        <label for="reason">Reason that it's your favourite</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Give reason here">
+        <br>
+        <button type="submit" class="btn btn-secondary" id="submit">Submit my suggestion</button>
+      </div>
+    </form>
 
 
 

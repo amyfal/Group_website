@@ -49,10 +49,17 @@ text-align:center
     clear: both;
     display: table;
   }
-  button {
+
+  .subscription_button {
       position: fixed;
       bottom: 0;
-      left: 0;
+      right: 0;
+  }
+
+  #submit {
+
+    position: relative;
+    padding: 5px;
   }
 
   iframe {
