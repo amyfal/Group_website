@@ -59,6 +59,7 @@ text-align:center
   #submit {
 
     position: relative;
+    padding: 5px;
   }
 
   iframe {
