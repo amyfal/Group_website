@@ -22,3 +22,7 @@ $(document).ready(function(){
   });
 
 });
+
+function myFunction() {
+  alert("Thank you for your suggestion!");
+}
