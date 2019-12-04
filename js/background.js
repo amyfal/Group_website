@@ -26,3 +26,8 @@ $(document).ready(function(){
 function myFunction() {
   alert("Thank you for your suggestion!");
 }
+
+$("#subscribe2").click(function(){
+  $("myModal").modal('show');
+
+});
