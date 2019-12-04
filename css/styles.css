@@ -11,20 +11,53 @@ body {
 
 .dessert_places img {
   border-radius: 50%;
-  
   }
 
+.dessert_places img:hover {
+  border: 6px solid #CD919E;
+
+}
 
 
-  .img-container {
+.info img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+h2 {
+  font-family: cursive;
+  text-align:center;
+}
+
+p {
+text-align:center
+
+}
+
+
+.img-container {
     float: left;
     width: 33.33%;
     padding: 5px;
 
   }
 
-  .clearfix::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
+  }
+  button {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+  }
+
+  iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   }
