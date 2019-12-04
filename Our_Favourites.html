@@ -30,7 +30,7 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="About.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="Our_Favourites.html">Our Favourites</a>
@@ -125,10 +125,6 @@
 
 
 
-    <div class="subscription_button">
-      <button type="button" class="btn btn-info" >Subscribe to our newsletter</button>
-    </div>
-
     <form>
       <h2> Have we missed one of your favourites? </h2>
       <p> Let us know about any other places you think we should include! <p>
@@ -140,10 +136,70 @@
         <label for="reason">Reason that it's your favourite</label>
         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Give reason here">
         <br>
-        <button type="submit" class="btn btn-secondary" id="submit">Submit my suggestion</button>
+        <button onclick="myFunction()" type="submit" class="btn btn-secondary" id="submit">Submit my suggestion</button>
       </div>
     </form>
 
+
+    <div class="subscription_button">
+      <button onclick="subscribeFunction()" type="button" class="btn btn-info" ata-toggle="modal" data-target="#myModal">Subscribe to our newsletter</button>
+    </div>
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close"
+                       data-dismiss="modal">
+                           <span aria-hidden="true">&times;</span>
+                           <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        Modal title
+                    </h4>
+                </div>
+
+
+                <div class="modal-body">
+
+                    <form role="form">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control"
+                          id="exampleInputEmail1" placeholder="Enter email"/>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control"
+                              id="exampleInputPassword1" placeholder="Password"/>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                            <input type="checkbox"/> Check me out
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default"
+                            data-dismiss="modal">
+                                Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        Save changes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
