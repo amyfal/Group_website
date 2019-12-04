@@ -61,3 +61,8 @@ text-align:center
   margin-right: auto;
 
   }
+
+.about_page {
+  background-image: url(images/aboutpicture.jpeg);
+
+}
