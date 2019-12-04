@@ -22,11 +22,3 @@ $(document).ready(function(){
   });
 
 });
-
-$("#map").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".map_section").offset().top - 60},
-        'slow');
-});
-
-});
